@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deshi Deals</title>
+        <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+        <!-- daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <nav class="border-b-2 border-[#00000040]">
+            <div class="flex justify-center items-center">
+                <img src="./assets/logo.png" alt="" class="w-[52px]">
+                <div class="ml-2">
+                    <h2 class="text-[#e71580] text-2xl">Deshi <span class="font-bold">Deals</span></h2>
+                    <p class="text-[#797075]">Cheap Price ,  Best Quality</p>
+                </div>
+            </div>
+        </nav>
+        <section class="bg-[#f0e6eb] h-[600px] relative pt-20">
+            <div class="text-center w-7/12 mx-auto p-10">
+                <h2 class="font-bold text-4xl">Purchase TK 200 or above & get <br><span class="text-[#e71580]">20% off</span></h2>
+                <div class="flex justify-around items-center mt-6">
+                    <button class="font-medium text-xl px-8 py-2">Use Promo Code</button>
+                    <button class="font-semibold text-2xl bg-[#e527b2] px-8 py-2 rounded-xl text-white">SELL200</button>
+                </div>
+            </div>
+            <div class="absolute bottom-[-156px] left-1/2 transform -translate-x-1/2">
+                <img src="./assets/hero-bg.png" alt="">
+            </div>
+        </section>
+    </header>
+
+    <main class="bg-[#f8f8f8] mt-[180px]">
+        <div class="products-container w-11/12 mx-auto grid grid-cols-12 gap-5">
+            <div class="products col-span-9">
+                <div class="kitchen">
+                    <h1 class="text-2xl font-bold">Kitchenware</h1>
+                    <div class="kitchen-products grid grid-cols-3 gap-5">
+
+                        <div class="product-1">
+                            <div class="card bg-base-100 shadow-sm p-3">
+                                <figure class="px-10 pt-10 bg-[#f8f8f8]">
+                                    <img
+                                    src="./assets/kitchen-1.png"
+                                    alt="Kitchen Ware"
+                                    class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <p class="text-lg">⭐⭐⭐⭐⭐</p>
+                                    <p class="text-gray-500 text-xl">39.00 TK</p>
+                                    <h2 class="card-title">K. Accessories</h2>
+                                </div>
+                                <div class="card-actions">
+                                        <button class="btn bg-[#e527b2] text-lg hover:bg-pink-500 text-white w-full">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="product-2">
+                            <div class="card bg-base-100 shadow-sm p-3">
+                                <figure class="px-10 pt-8 bg-[#f8f8f8]">
+                                    <img
+                                    src="./assets/kitchen-2.png"
+                                    alt="Kitchen Ware"
+                                    class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <p class="text-lg">⭐⭐⭐⭐⭐</p>
+                                    <p class="text-gray-500 text-xl">49.00 TK</p>
+                                    <h2 class="card-title">K. Accessories</h2>
+                                </div>
+                                <div class="card-actions">
+                                        <button class="btn bg-[#e527b2] text-lg hover:bg-pink-500 text-white w-full">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="product-3">
+                            <div class="card bg-base-100 shadow-sm p-3">
+                                <figure class="px-10 pt-10 bg-[#f8f8f8]">
+                                    <img
+                                    src="./assets/kitchen-3.png"
+                                    alt="Kitchen Ware"
+                                    class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <p class="text-lg">⭐⭐⭐⭐⭐</p>
+                                    <p class="text-gray-500 text-xl">59.00 TK</p>
+                                    <h2 class="card-title">K. Accessories</h2>
+                                </div>
+                                <div class="card-actions">
+                                        <button class="btn bg-[#e527b2] hover:bg-pink-500 text-white text-lg w-full">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <aside class="cart col-span-3 bg-slate-600 h-10">
+
+            </aside>
+
+        </div>
+    </main>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
